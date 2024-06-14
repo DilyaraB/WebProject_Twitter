@@ -1,0 +1,384 @@
+*{
+  margin : 0;
+  padding : 0;
+}
+
+.birdy-logo{
+  margin-top: 3px;
+  margin-right: 10px;
+  float :left;
+  
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .birdy-logoDONOTDOTHISITSHORRIBLE {
+    animation: Birdy-logo-spin  20s linear;
+  }
+}
+
+@keyframes Birdy-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img[alt="logo"] {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 100px; /* largeur de l'image */
+  height: 100px; /* hauteur automatique pour préserver les proportions de l'image */
+}
+
+/*    justify-content: left;   height: 100vh;
+  width: fit-content; height: 100vh;*/
+.MainPage2{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+/*.side {
+  align-items:left;
+  align-self: left;
+
+}*/
+.ligne1 {
+  height: 10%;
+  width: 100%;
+  background-color:rgb(25, 66, 120);
+}
+
+.ligne2{
+  height: 90%;
+}
+
+/*  align-self: right;
+  background-color: #8684b6 ;
+  
+  width:fit-content; */
+  .navigPanel{ 
+    background-color:rgb(25, 66, 120);
+    
+}
+
+.birdy{
+  font-size: 40px;
+  color:black;
+}
+.logoutBtn{
+  float: right;
+}
+
+.colonne{
+  display: flex;
+  flex-direction: row;
+}
+
+.main{
+  max-width : 88%;
+  min-width: 88%;
+  align-self: center;
+  background-image : linear-gradient( rgb(142, 174, 207),rgb(25, 66, 120));
+  min-height: 100vh;
+  align-content: center;
+}
+
+
+/*flex : 0 0 30%;*/
+.sidebar{
+  padding-top: 10px;
+  background-color:rgb(25, 66, 120);
+}
+
+
+.Messages{
+  display: flex;
+  flex-direction:column;
+  max-height:900px;
+  max-width: 100%;
+  overflow: scroll;
+
+}
+
+.sendMessage {
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.entry {
+  width: 90%;
+  height : 10%;
+  display: inline-flex;
+  border : none;
+  border-radius: 5px;
+}
+
+.message{
+  padding: 3%;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+  font-family: inherit;
+  font-size: inherit;
+  max-height: 700px;
+  
+}
+
+.followersFollowing {
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.followersList, .followingList {
+  flex-basis: 10%;
+}
+
+.profile{
+  display: flex;
+}
+
+.profiLink{
+  font-size: 30px;
+  margin-left: 10px;
+  color: black;
+  display: block;
+
+}
+
+.photoProfile{
+  font-size: 50px;
+}
+
+.profiLinkComment{
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+}
+
+.murComments{
+  overflow: scroll;
+  background-color: rgb(213, 228, 241);
+  padding : 1%;
+  max-height: 70px;
+  max-width : 400%;
+  border-radius: 10px;
+}
+
+.text {
+  word-wrap: break-word;
+  font-size: 25px;
+  font-family:'Gill Sans', sans-serif;
+  margin-bottom: 10px;
+  color:rgb(213, 232, 249);
+  
+}
+
+.errtext{
+  font-size: 25px;
+  font-family:'Gill Sans', sans-serif;
+  color:rgb(213, 232, 249);
+  justify-content: center;
+  display: flex;
+
+}
+
+.text_comment{
+  font-size: 15px;
+}
+
+.profileMessages{
+  overflow: scroll;
+}
+
+.murMessage{
+  margin-left: 4%;
+  margin-right: 4%;
+  overflow: scroll;
+  max-width : 350%;
+  
+}
+
+.bars{
+  display: flex;
+  margin-left: 130px;
+  font-size: 20px;
+}
+
+.pages{
+  display: flex;
+  color : black;
+  padding: 10px 10px; 
+  gap: 10px;
+
+
+}
+
+.deleteButton{
+ justify-self: right;
+}
+.pages:hover{
+  background-color:rgb(142, 174, 207);
+}
+
+.pageIcon, .pageName{
+  font-size: 20px;
+}
+
+.nomPrenom{
+  display: flex;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.bio{
+  font-size: 20px;
+}
+
+.nom{
+  padding-left: 3px;
+}
+
+
+.MainPage {
+  text-align: center;
+  column-span: 9;
+  width: 100%;
+  height: auto;
+  display:grid;
+  color: black ;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+/*background-color: #0c4a3f ;*/
+.authentification, .signupage, .login-form, .signup-form {
+  padding: 3%;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.3rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+  align-items: center;
+  background-image : linear-gradient( rgb(142, 174, 207),rgb(25, 66, 120));
+  color : whitesmoke;
+
+}
+
+.authentification, .signupage{
+  height: 95vh;
+  
+}
+
+
+.timeline{
+  text-align: center;
+}
+
+.profilePage, .searchPage{
+  padding: 2%;
+}
+
+.searchBar {
+  padding: 3%;
+}
+
+.commenter{
+  font-size: large;
+  color: #022552;
+  font-weight: bold;
+}
+
+.settings-form{
+  padding: 2%;
+  font-size: larger;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+  align-self:center;
+  align-items: center;
+}
+
+textarea{
+  margin-top: 1%;
+  resize : none;
+  display: inline-flex;
+}
+
+
+
+/*.sender {
+  border:none;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 15px;
+} */
+
+button {
+    margin: 2%;
+    border: none;
+    background-color: #1f3149 ;
+    cursor : pointer;
+    color : whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+input {
+  margin: 0.5 rem 0;
+  padding: 1%;
+  border: none;
+  border-radius: 15px;
+}
+
+label {
+  padding: 0.5rem 0;
+}
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #2e496d ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  
