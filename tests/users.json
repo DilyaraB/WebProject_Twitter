@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "64303491e74b281bc0c9b128"
+  },
+  "password": "1234",
+  "followers": [],
+  "following": [],
+  "createdAt": {
+    "$date": "2023-04-07T15:19:45.947Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-07T15:19:45.947Z"
+  },
+  "__v": 0,
+  "firstName": "Elon",
+  "lastName": "Musk",
+  "login": "victim1"
+},{
+  "_id": {
+    "$oid": "6437f01f5db0db9c0f390eae"
+  },
+  "login": "a",
+  "password": "a",
+  "lastName": "subject",
+  "firstName": "test",
+  "followers": [
+    "b",
+    "c"
+  ],
+  "following": [
+    "b"
+  ]
+},{
+  "_id": {
+    "$oid": "643bfd06f9a13a480f18fc94"
+  },
+  "login": "b",
+  "password": "b",
+  "lastName": "b",
+  "firstName": "b",
+  "followers": [
+    "a"
+  ],
+  "following": [
+    "a"
+  ]
+},{
+  "_id": {
+    "$oid": "643bfd26f9a13a480f18fc95"
+  },
+  "login": "c",
+  "password": "c",
+  "lastName": "c",
+  "firstName": "c",
+  "followers": [],
+  "following": [
+    "a"
+  ]
+},{
+  "_id": {
+    "$oid": "643bfde3f9a13a480f18fc96"
+  },
+  "login": "d",
+  "password": "d",
+  "lastName": "d",
+  "firstName": "d",
+  "followers": [],
+  "following": []
+},{
+  "_id": {
+    "$oid": "643bfeafd10544283127b10d"
+  },
+  "login": "e",
+  "password": "e",
+  "lastName": "e",
+  "firstName": "e",
+  "followers": [],
+  "following": []
+},{
+  "_id": {
+    "$oid": "643c0656d10544283127b10f"
+  },
+  "login": "f",
+  "password": "f",
+  "lastName": "f",
+  "firstName": "f",
+  "followers": [],
+  "following": []
+}]
